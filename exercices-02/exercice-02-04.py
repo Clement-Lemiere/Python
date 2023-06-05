@@ -6,4 +6,7 @@
 # Affichez le résultat.
 
 # réponse 2.4
+number3= 2.7182
+number3_rounded=round(number3, 2)
 
+print(number3_rounded)
