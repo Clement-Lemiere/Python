@@ -24,7 +24,7 @@ print(python_is_boring)
 
 # null
 user_accepted_terms = None
-print(None)
+print(user_accepted_terms)
 
 # types de données
 print(type(number1))
