@@ -14,4 +14,6 @@ price = 271.00
 tax_rate = 20
 
 # réponse 3.8
+tax_included_price = price + price * tax_rate / 100
+print(tax_included_price)
 
