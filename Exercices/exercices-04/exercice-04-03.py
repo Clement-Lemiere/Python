@@ -10,4 +10,8 @@ number = random.randint(0, 9)
 print(number)
 
 # réponse 4.3
+if number % 3:
+    print("le nombre n'est pas divisible par 3")
+else:
+    print("le nombre est divisible par 3")
 
