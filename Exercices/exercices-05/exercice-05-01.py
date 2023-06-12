@@ -5,6 +5,12 @@
 # réponse 5.1
 
 def multiplication(a: float, b: float) -> float:
+    """Renvoie la multiplication des nombres a et b
+
+    a float le nombre a
+    b float le nombre b
+    return float
+    """
     
     return a * b
 

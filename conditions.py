@@ -3,3 +3,6 @@ if True:
 if False:
     print("Ce message ne s'affichera jamais")
 
+
+
+# opérateurs booléens
