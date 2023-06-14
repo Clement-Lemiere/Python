@@ -6,4 +6,8 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.13
+value=0
+for value in range(len(my_list)):
+    my_list[value] *= 100
 
+print("multiplied values list:", my_list)

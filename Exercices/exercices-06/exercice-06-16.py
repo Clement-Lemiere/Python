@@ -1,5 +1,5 @@
 # exo 6.16
-# Ici le but est d'intervertir les éléments de la liste deux à deux
+# Ici le but est d'intervertir les éléments de la liste une à deux
 # Liste initiale :
 #
 #   my_list = [2.71, 42, 123, 2, 3.14, 1.61]
@@ -13,4 +13,12 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.16
+for i in range(len(my_list)):
+    if i == 1:
+        my_list[0], my_list[i] = my_list[i], my_list[0]
+    elif i == 2:
+        my_list[2], my_list[3] = my_list[3], my_list[2]
+    elif i == 4:
+        my_list[4], my_list[5] = my_list[5], my_list[4]
 
+print(my_list)

@@ -6,4 +6,11 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.12
+i = 0
+
+for item in my_list:
+    if item <= 10:
+        i += 1
+
+print(item,"occurres ", i, "times")
 

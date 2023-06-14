@@ -6,6 +6,15 @@
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.7
+#1st way
 my_list[1] = my_list[3]
 my_list[3] = 'bar'
 print(my_list)
+
+
+#2nd 
+my_list2 = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
+
+tmp= my_list2[1], my_list2[3]
+my_list2[1], my_list2[3] = my_list2[3], my_list2[1]
+print(my_list2)

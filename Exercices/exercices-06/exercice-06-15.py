@@ -8,4 +8,13 @@
 my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit']
 
 # réponse 6.15
+longest_string = ""
+position = -1
 
+for i, string in enumerate(my_list):
+
+    if len(string) > len(longest_string):
+        position = i+1
+        longest_string = string
+
+print(longest_string,"Length:", len(longest_string), "Position:", position)
