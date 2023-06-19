@@ -17,3 +17,7 @@ print(matrix)
 
 # réponse 6.18
 
+for x in range(size):
+    for y in range(size):
+        if matrix[x][y] <= 50:
+            print("Valeur :", matrix[x][y], "| Ligne :", x+1, "| Colonne :", y+1)

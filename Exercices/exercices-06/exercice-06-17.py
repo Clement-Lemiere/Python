@@ -17,3 +17,5 @@ print(matrix)
 
 # réponse 6.17
 
+value = matrix[2][3 - 1]
+print("La valeur à la colonne 4, ligne 3 est :", value)
