@@ -6,8 +6,12 @@
 import random
 
 # réponse 7.8
+count = 0
 
 for i in range(100):
     r = random.randint(1, 10)
     if r==7:
-        print(i, r)
+        count+=1
+        print("index :", i, " ==> valeur :", r)
+
+print(f"Le chiffre 7 apparaît ",count," fois dans la liste")

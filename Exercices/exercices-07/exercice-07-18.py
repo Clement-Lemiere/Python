@@ -5,4 +5,10 @@
 import random
 
 # réponse 7.18
-
+r = random.randint(1, 100)
+i=0
+while r != 100:
+    i+=1
+    r = random.randint(1, 100)
+    if r==100:
+        print("tentative", i, ": le nombre 100 est tiré")

@@ -9,7 +9,6 @@ my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing'
 
 # réponse 6.15
 longest_string = ""
-position = -1
 
 for i, string in enumerate(my_list):
 

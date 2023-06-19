@@ -7,3 +7,13 @@ import random
 
 # réponse 7.12
 
+count = 0
+
+for i in range(100):
+    r = random.randint(1, 10)
+    if r>=2 and r<=9:
+        count+=1
+        print("index :", i, " ==> valeur :", r)
+
+print(f"Il y a",count," chiffres inférieurs ou égal à 4 dans la liste")
+
