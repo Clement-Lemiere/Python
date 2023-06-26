@@ -7,7 +7,7 @@
 # Appelez la fonction et affichez le résultat
 
 # réponse 10.2
-def addition(a:int, b:int):
+def addition(a:int, b:int) -> int:
     return a - b
 
 resultat = addition(42, 123)
